@@ -11,7 +11,7 @@ But it is very fast.
 
 * Python 2
 * argparse module
-* csv module
+* csv module (for the forthcoming ku-bom.py utility)
 
 # Installation
 Just copy these utilities to some place in your path. I use $HOME/bin. You may have to set the exec flag with 'chmod +x'. You may also have to change the path to python. It is currently set to '/usr/bin'.
