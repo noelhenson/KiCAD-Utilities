@@ -28,3 +28,18 @@ back fab layer, respectively.
 ```
 ku-refdes.py center --fab design.kicad_pcb assembly.kicad_pcb
 ```
+To get help:
+```
+ku-refdes.py -h
+usage: ku-refdes.py [-h] [--fab] [-v, --version] command infile outfile
+
+positional arguments:
+  command        center, (center is only command at this time)
+  infile         input file (PCBnew file)
+  outfile        output file (must not be input file)
+
+optional arguments:
+  -h, --help     show this help message and exit
+  --fab          move references to fab layer
+  -v, --version  show program's version number and exit
+```
