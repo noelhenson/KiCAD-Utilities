@@ -15,3 +15,16 @@ But it is very fast.
 
 # Installation
 Just copy these utilities to some place in your path. I use $HOME/bin. You may have to set the exec flag with 'chmod +x'. You may also have to change the path to python. It is currently set to '/usr/bin'.
+
+# Examples
+
+## ku-refdes.py
+
+Create a version of a layout for assembly purposes. This will center the 
+reference designators on top of their components and rotate them to match 
+the orientation of the its footprint. The '--fab' option will move the 
+reference designators from the front or back silkscreen to the front or 
+back fab layer, respectively.
+```
+ku-refdes.py center --fab design.kicad_pcb assembly.kicad_pcb
+```
