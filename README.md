@@ -26,7 +26,7 @@ the orientation of the its footprint. The '--fab' option will move the
 reference designators from the front or back silkscreen to the front or 
 back fab layer, respectively.
 ```
-ku-refdes.py center --fab design.kicad_pcb assembly.kicad_pcb
+ku-refdes.py --fab center design.kicad_pcb assembly.kicad_pcb
 ```
 To get help:
 ```

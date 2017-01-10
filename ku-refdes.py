@@ -34,8 +34,8 @@ parser = argparse.ArgumentParser()
 parser.add_argument('command',help='center, (center is only command at this time)')
 parser.add_argument('infile', help='input file (PCBnew file)', type=argparse.FileType('r'))
 parser.add_argument('outfile', help='output file (must not be input file)', type=argparse.FileType('w'))
-parser.add_argument('--fab', help ='move references to fab layer', action='store_true')
-parser.add_argument('-v, --version', action='version', version='%(prog)s 0.1')
+parser.add_argument('-f', '--fab', help ='move references to fab layer', action='store_true')
+parser.add_argument('-v', '--version', action='version', version='%(prog)s 0.2')
 
 args = parser.parse_args()
 
