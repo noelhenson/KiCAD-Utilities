@@ -15,7 +15,7 @@ There is optional pruning of unused fields and 'Part Number' and
 
 * Python 2
 * argparse module
-* csv module (for the forthcoming ku-bom.py utility)
+* csv module
 
 # Installation
 Just copy these utilities to some place in your path. I use $HOME/bin. You may have to set the exec flag with 'chmod +x'. You may also have to change the path to python. It is currently set to '/usr/bin'.
@@ -68,10 +68,10 @@ C31;2;0.01uF;Capacitors_SMD:C_0603;;;;;;;;;;;
 ```
 And turn it into this:
 ```
-Reference;Qty;Value;Footprint;Datasheet;Field4;Tolerance;Power;Voltage;Part Number;Manufacturer
-R7;1;0;Resistors_SMD:R_0603;;;;;;;
-C30;1;0.0015uF;Capacitors_SMD:C_0603;;;;;;;
-C31,C68;2;0.01uF;Capacitors_SMD:C_0603;;;;;;;
+Reference;Qty;Value;Footprint;Datasheet;Tolerance;Power;Voltage;Part Number;Manufacturer
+R7;1;0;Resistors_SMD:R_0603;;;;;;
+C30;1;0.0015uF;Capacitors_SMD:C_0603;;;;;;
+C31,C68;2;0.01uF;Capacitors_SMD:C_0603;;;;;;
 ```
 To get help:
 ```
